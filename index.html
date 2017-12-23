@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Global Site Tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106572464-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)};
+        gtag('js', new Date());
+
+        gtag('config', 'UA-106572464-1');
+        </script>
+
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <title>Super Micro Fun - Treasure Hunter</title>
+    </head>
+    <body>
+        <script src="/header.js"></script>
+
+        <div id="content">
+            <center>
+                <h1>Treasure Hunter</h1>
+                <div id="game">
+                </div>
+
+                <script src="http://cdn.jsdelivr.net/phaser/2.6.2/phaser.min.js"></script>
+                <script src="src/util.js"></script>
+                <script src="src/entityManager.js"></script>
+                <script src="src/audioManager.js"></script>
+                <script src="src/map.js"></script>
+                <script src="src/mapRenderer.js"></script>
+                <script src="src/treasure.js"></script>
+                <script src="src/treasurePopup.js"></script>
+                <script src="src/treasureManager.js"></script>
+                <script src="src/detector.js"></script>
+                <script src="src/hud.js"></script>
+                <script src="src/trophyCase.js"></script>
+                <script src="src/playState.js"></script>
+                <script src="src/loadState.js"></script>
+                <script src="src/main.js"></script>
+            </center>
+            
+            <div id="info">
+                <br/>
+                <b>What Is This?</b><br/>
+                Dig up hidden treasures on these tropical islands! Move your mouse to zero in on each treasure, then click to dig it up and break the chest open! Can you collect all 64 treasures?<br/><br/>
+
+                <b>How Long Did It Take?</b><br/>
+                Too long (more than a few weekends)! I kept trying out different mechanics and never found something I was totally happy with. As a result, this is more of a toy than a game :)<br/><br/>
+
+                <b>How Many Lines of Code? (Excluding Phaser)</b><br/>
+                755<br/><br/>
+
+                <b>Fun Stuff</b><br/>
+                Plasma Fractals are a simple and fun way to generate terrain! Learn about them <a href="http://jmecom.github.io/blog/2015/diamond-square/">here</a> and <a href="http://www.paulboxley.com/blog/2011/03/terrain-generation-mark-one">here</a>. I ended up using <a href="https://gist.github.com/rochal/2839478">this</a> implementation (love the license).<br/><br/>
+
+                <b>Where Did I Get The Assets?</b><br/>
+                Treasures: <a href="https://graphicriver.net/item/256-vector-game-items/11887071?s_rank=9">256 Vector Game Items</a> ($5) on <a href="https://market.envato.com/">Envato Market</a>.<br/>
+                Music: <a href="http://ozzed.net/music/8-bit-empire.shtml#tune03">I Like Jump Rope</a> by <a href="http://ozzed.net/">Ozzed</a>. Awesome free 8-bit/chiptune music!<br/>
+                Sounds: Made with <a href="http://www.drpetter.se/project_sfxr.html">sfxr</a>.<br/>
+            </div>
+        </div>
+
+        <script src="/footer.js"></script>
+    </body>
+</html>
